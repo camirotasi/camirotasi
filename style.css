@@ -126,7 +126,18 @@ nav{display:none}
     gap:12px;
     flex-wrap:wrap;
 }
+.cami-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
 
+.cami-actions .btn {
+    width: auto;
+    min-width: 170px;
+    padding: 14px 28px;
+    text-align: center;
+}
 @media(max-width:800px){
     .cami-card{
         grid-template-columns:1fr;

@@ -58,3 +58,12 @@ nav{display:none}
 .navbar{padding:18px 5%}
 .section{padding:70px 5%}
 }
+.cami-card img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto;
+}
